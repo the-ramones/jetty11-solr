@@ -212,7 +212,7 @@
                     <connectors>
                         <!-- Listen to port 8983 -->
                         <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
-                            <port>8983</port>
+                                <port>8983</port>
                             <maxIdleTime>60000</maxIdleTime>
                         </connector>
                     </connectors>
